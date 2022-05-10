@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+	background: #44A08D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: 'Inter', sans-serif;
+  color: black
+  
+}
+
+.App {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+
+.container{
+	border: #44A08D 2px solid;
+	border-radius: 15px;
+	width: 250px;
+	height: 300px;
+	margin: 0 auto;
+	
+}
+
+
+.bulb{
+	width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.off{
+	background-color: gray;
+}
+
+.on{
+	background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button{
+
+  box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:5px 15px;
+  border: none;
+	margin: 20px;
+	
+}
+
+Button:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+Button:active {
+	position:relative;
+	top:1px;
+}
